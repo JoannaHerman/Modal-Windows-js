@@ -17,7 +17,7 @@ const openModal = function () {
   overlay.classList.remove('hidden');
 };
 
-//showing text from all three modals (show-modal)
+//Showing text from all three modals (show-modal)
 for (let i = 0; i < btnsOpenModal.length; i++) {
   //uruchomienie funkcji closeModal na X
   btnCloseModal.addEventListener('click', closeModal);
